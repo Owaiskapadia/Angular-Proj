@@ -19,7 +19,7 @@ export class RecipeListComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  recipeWasCreated(event:any){
+  recipeWasCreated(event:Recipe){
     console.log(event.name + " event aaya")
     this.recipekoBheja.emit(event)
   }
